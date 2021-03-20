@@ -34,6 +34,9 @@ A `.env` file is required to be created with proper credentials for the app to w
 
 The `yarn rw db seed` command can be run to create some demo companies, with associated stories, insights, and contacts. The password for admins and contacts created `Pwd$123`.
 
+This is what the page should look like after seeding:
+![image](https://user-images.githubusercontent.com/70818495/111852816-cd20b980-88ee-11eb-8292-29420aadc116.png)
+
 ### Setting up a host domain
 
 We need to be able to setup host records on the windows host so we can test the subdomain feature.
