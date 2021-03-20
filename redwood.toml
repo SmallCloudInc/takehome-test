@@ -1,0 +1,23 @@
+# This file contains the configuration settings for your Redwood app.
+# This file is also what makes your Redwood app a Redwood app.
+# If you remove it and try to run `yarn rw dev`, you'll get an error.
+#
+# For the full list of options, see the "App Configuration: redwood.toml" doc:
+# https://redwoodjs.com/docs/app-configuration-redwood-toml
+
+[web]
+  port = 8910
+  apiProxyPath = "/api"
+  host = "0.0.0.0"
+  includeEnvironmentVariables = ['FIREBASE_API_KEY', 'FIREBASE_AUTH_DOMAIN', 'FIREBASE_PROJECT_ID', 'UV_PORTAL_DOMAIN', 'UV_ADMIN_DOMAIN', 'IMAGEKIT_AUTH_URL', 'IMAGEKIT_PUBLIC_KEY', 'IMAGEKIT_URL_ENDPOINT', 'IMAGEKIT_PRIVATE_KEY']
+
+
+[api]
+  port = 8911
+  host = "0.0.0.0"
+  schemaPath = "./api/db/schema.prisma"
+  includeEnvironmentVariables = ['FIREBASE_API_KEY', 'FIREBASE_AUTH_DOMAIN', 'FIREBASE_PROJECT_ID', 'UV_PORTAL_DOMAIN', 'UV_ADMIN_DOMAIN', 'IMAGEKIT_AUTH_URL', 'IMAGEKIT_PUBLIC_KEY', 'IMAGEKIT_URL_ENDPOINT', 'IMAGEKIT_PRIVATE_KEY']
+
+
+[browser]
+  open = false

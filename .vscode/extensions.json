@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "ofhumanbondage.react-proptypes-intellisense",
+    "mgmcdermott.vscode-language-babel",
+    "editorconfig.editorconfig",
+    "github.vscode-pull-request-github",
+    "graphql.vscode-graphql",
+    "heybourn.headwind",
+    "esbenp.prettier-vscode",
+    "prisma.prisma",
+    "gkotas.restore-git-branch-tabs",
+    "bradlc.vscode-tailwindcss"
+  ],
+  "unwantedRecommendations": []
+}

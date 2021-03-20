@@ -1,0 +1,46 @@
+{
+  "name": "web",
+  "version": "0.0.0",
+  "private": true,
+  "browserslist": {
+    "development": [
+      "last 1 version"
+    ],
+    "production": [
+      "defaults",
+      "not IE 11",
+      "not IE_Mob 11"
+    ]
+  },
+  "dependencies": {
+    "@headlessui/react": "^0.2.0",
+    "@redwoodjs/auth": "^0.22.1",
+    "@redwoodjs/forms": "^0.22.1",
+    "@redwoodjs/router": "^0.22.1",
+    "@redwoodjs/web": "^0.22.1",
+    "@supabase/supabase-js": "^1.0.7",
+    "@tailwindcss/typography": "^0.4.0",
+    "awesome-debounce-promise": "^2.1.0",
+    "date-fns": "^2.16.1",
+    "firebase": "^8.1.2",
+    "lodash": "^4.17.20",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-autosize-textarea": "^7.1.0",
+    "react-dom": "^16.13.1",
+    "react-linkify": "^1.0.0-alpha",
+    "react-select": "^3.2.0",
+    "react-transition-group": "^4.4.1",
+    "reoverlay": "^1.0.0",
+    "rich-markdown-editor": "^11.1.6",
+    "slugify": "^1.4.6",
+    "styled-components": "^5.2.1",
+    "yup": "^0.31.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.2.1",
+    "autoprefixer": "9.8.6",
+    "postcss-loader": "4.0.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "editor.tabSize": 2,
+  "files.trimTrailingWhitespace": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[prisma]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "files.exclude": {
+    "**/*.mock.js": true,
+    "**/*.stories.js": true,
+    "**/*.test.js": true
+  },
+  "files.watcherExclude": {
+    "**/*.mock.js": true,
+    "**/*.stories.js": true,
+    "**/*.test.js": true
+  },
+  "search.exclude": {
+    "**/*.stories.js": true,
+    "**/*.test.js": true
+  }
+}
