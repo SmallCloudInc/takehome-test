@@ -37,7 +37,7 @@ The `yarn rw db seed` command can be run to create some demo companies, with ass
 This is what the page should look like after seeding:
 ![image](https://user-images.githubusercontent.com/70818495/111852816-cd20b980-88ee-11eb-8292-29420aadc116.png)
 
-### Setting up a host domain
+### Access the app
 
 On windows, you should be able to access the admin app via `http://app.uservitals.local:8910/` or your local host http://0.0.0.0:8910/
 
