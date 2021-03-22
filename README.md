@@ -36,28 +36,7 @@ The `yarn rw db seed` command can be run to create some demo companies, with ass
 
 ### Setting up a host domain
 
-We need to be able to setup host records on the windows host so we can test the subdomain feature.
-
-Inside your WSL Unix Terminal, run `ifpconfig`. Find the inet address for the eth0 interface. The ip will be similar to 192.168.158.200
-
-Open a Windows Powershell terminal using the windows host. Run `code C:\Windows\System32\drivers\etc\hosts` to open the hosts file.
-
-Enter the following lines, replacing your IP address.
-
-```
-YOUR_IP zipenterprises.uservitals.portal
-YOUR_IP cloudops.uservitals.portal
-YOUR_IP app.uservitals.local
-```
-
-Save the file and exit. (You may get a warning but asking to save as admin, proceed and save as admin)
-
-Run `ipconfig /flushdns` in the Powershell terminal to allow the new host entries to be picked up by the OS.
-
-On windows, you should be able to access the admin app via `http://app.uservitals.local:8910/`
-and the public portal via `http://zipenterprises.uservitals.portal:8910/` or `http://cloudops.uservitals.portal:8910/`
-
-After the following changes, to access via the URLs above, you will need to run the dev server with `yarn rw dev --fwd="--disable-host-check=true"`
+On windows, you should be able to access the admin app via `http://app.uservitals.local:8910/` or your local host http://0.0.0.0:8910/
 
 #### Preview migrate commands
 
