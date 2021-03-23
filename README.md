@@ -3,7 +3,9 @@
 ### Resources
 
 RedwoodJS tutorial: https://learn.redwoodjs.com/docs/tutorial/welcome-to-redwood/
+
 RedwoodJS documentation: https://redwoodjs.com/docs/introduction
+
 Prisma documentation: https://www.prisma.io/docs/
 
 ### Setup
@@ -19,7 +21,7 @@ yarn install
 Make sure you have updated your `.env` file with the DB and firebase credentials.
 
 ```terminal
-yarn run prisma migrate dev --preview-feature --schema ./api/db/schema.prisma
+yarn run prisma migrate dev --schema ./api/db/schema.prisma
 ```
 
 ### Fire it up
@@ -39,7 +41,7 @@ This is what the page should look like after seeding:
 
 ### Access the app
 
-On windows, you should be able to access the admin app via `http://app.uservitals.local:8910/` or your local host http://0.0.0.0:8910/
+On windows, you should be able to access the admin app via `http://localhost:8910`
 
 #### Preview migrate commands
 
@@ -60,7 +62,8 @@ The following models should be present in your application:
 
 - Feedback model
 - User model
-- story? team?
+- story? 
+- team?
 
 Bonus items:
 
