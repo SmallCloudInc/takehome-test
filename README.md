@@ -63,8 +63,3 @@ Complete the following user stories of the application below, taking care for UI
 - Update the existing forms to show a dropdown of users, and allow creating a feedback item assigned to a user.
 - Create a contacts page with a list of users and the number of feedback items that they have given.
 - Update seed data script. The script should create a sample of users, with their associated feedback too.
-
-The following models should be present in your application:
-
-- Feedback model
-- User model
