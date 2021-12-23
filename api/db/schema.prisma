@@ -1,0 +1,15 @@
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = "native"
+}
+
+model Feedback {
+  id        String   @id @default(cuid())
+  text      String
+  createdAt DateTime @default(now())
+}
